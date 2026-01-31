@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.search-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.search-box input {
+  padding: 6px;
+  width: 200px;
+}
+
+.search-box button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
